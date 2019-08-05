@@ -1,0 +1,35 @@
+mixin storeCard(store ={})
+          .col-md-4.col-xs-6
+            .product
+              .product-img
+                img(src='../public/electro/img/product01.png' alt='')
+                .product-label
+                  span.sale -30%
+                  span.new NEW
+              .product-body
+                p.product-category Category
+                h3.product-name
+                  a(href=`/store/${store._id}/edit`) #{store.name}
+                h4.product-price
+                  | $980.00 
+                  del.product-old-price $990.00
+                .product-rating
+                  i.fa.fa-star
+                  i.fa.fa-star
+                  i.fa.fa-star
+                  i.fa.fa-star
+                  i.fa.fa-star
+                .product-btns
+                  button.add-to-wishlist
+                    i.fa.fa-heart-o
+                    span.tooltipp add to wishlist
+                  button.add-to-compare
+                    i.fa.fa-exchange
+                    span.tooltipp add to compare
+                  button.quick-view
+                    i.fa.fa-eye
+                    span.tooltipp quick view
+              .add-to-cart
+                button.add-to-cart-btn
+                  i.fa.fa-shopping-cart
+                  |  add to cart

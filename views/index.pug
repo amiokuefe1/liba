@@ -1,0 +1,659 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title Landy
+  meta(name='description' content='--')
+  meta(name='keywords' content='Premium HTML Template')
+  meta(name='author' content='HTMLmate')
+  // Mobile Specific Meta
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  // css-include
+  // boorstrap
+  link(rel='stylesheet' type='text/css' href='../public/land/assets/css/bootstrap.min.css')
+  // themify-icon.css
+  link(rel='stylesheet' type='text/css' href='../public/land/assets/css/themify-icons.css')
+  // animate.css
+  link(rel='stylesheet' type='text/css' href='../public/land/assets/css/animate.css')
+  // owl-carousel
+  link(rel='stylesheet' type='text/css' href='../public/land/assets/css/owl.carousel.css')
+  // video.min.css
+  link(rel='stylesheet' type='text/css' href='../public/land/assets/css/video.min.css')
+  // menu style
+  link(rel='stylesheet' type='text/css' href='../public/land/assets/css/menu.css')
+  // style
+  link(rel='stylesheet' type='text/css' href='../public/land/assets/css/style.css')
+  // responsive.css
+  link(rel='stylesheet' type='text/css' href='../public/land/assets/css/responsive.css')
+//
+  Start of Header
+  =============================================
+header
+  #main-menu.main-menu-container.tbg.navbar-fixed-top
+    .main-menu
+      .container
+        .row
+          .navbar.navbar-default(role='navigation')
+            .container-fluid
+              // Brand and toggle get grouped for better mobile display
+              .navbar-header
+                button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1')
+                  span.sr-only Toggle navigation
+                  i.ti-menu
+                // /.navbar-toggle collapsed
+                a.navbar-brand.text-uppercase(href='#')
+                  img(src='../public/land/assets/img/logo/logo.png' alt='logo')
+              // /.navbar-header
+              // Collect the nav links, forms, and other content for toggling
+              nav#bs-example-navbar-collapse-1.collapse.navbar-collapse.navbar-right
+                ul#main-nav.nav.navbar-nav
+                  li
+                    a(href='index-2.html') HOME-2
+                  li
+                    a(href='#about') about
+                  li
+                    a(href='#extra-features') Features
+                  li
+                    a(href='#showcase') showcase
+                  li
+                    a(href='#pricing') pricing
+                  li
+                    a(href='#download-area')
+                      | DOWNLOAD
+                      span.ti-import
+                  li
+                    a(href='#contact') contact
+                // /#main-nav
+              // /.navbar-collapse
+            // /.container-fluid
+          // /.navbar navbar-default
+        // /.row
+      // /.container
+    // /.full-main-menu
+  // #main-menu
+  // Main Menu end
+// .cd-auto-hide-header
+//
+  End of Header
+  =============================================
+//
+  Start of banner section
+  =============================================
+section#banner-area.banner-area-section.home-2
+  .container
+    .row
+      .banner-area-content
+        .banner-area-head
+          h1.pb30 I say You are welcome
+          .banner-text.pb40
+            span Lorem ipsum dolor sit amet consectetur adip elit sed do eiusmod tempor
+          .download-store.ul-li
+            ul.store-list
+              li
+                a(href='https://play.google.com/store?hl=en' target='blank')
+                  img(src='../public/land/../public/land/assets/img/store/google.png')
+              li
+                a(href='https://itunes.apple.com/us/app/apple-store/id375380948?mt=8' target='blank')
+                  img(src='../public/land/assets/img/store/apple.png')
+          .banner-mock-up.home-1.zooming
+            img(src='../public/land/assets/img/mock-up/home.png' alt='img')
+        // /banner-area-head
+      // /banner-area-content
+    // /row
+  // /.container
+//
+  End of banner section
+  =============================================
+//
+  Start of features section
+  =============================================
+section#features.features-section
+  .container
+    .row.section-content
+      .features-content
+        .row
+          .col-md-4
+            .features-text-icon.text-center
+              .features-icon
+                i.orange-gred.ti-desktop
+              // //icon
+              .features-text.mt25
+                .features-text-title.pb10
+                  h3.deep-black Responsive Design
+                .features-text-dec
+                  span
+                    | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              // //text
+            // // features-text-icon
+          // // col-sm-4
+          .col-md-4
+            .features-text-icon.text-center
+              .features-icon
+                i.orange-gred.ti-dashboard
+              // //icon
+              .features-text.mt25
+                .features-text-title.pb10
+                  h3.deep-black Faster Performance
+                .features-text-dec
+                  span
+                    | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              // //text
+            // // features-text-icon
+          // // col-sm-4
+          .col-md-4
+            .features-text-icon.text-center
+              .features-icon
+                i.orange-gred.ti-settings
+              // //icon
+              .features-text.mt25
+                .features-text-title.pb10
+                  h3.deep-black Easy To Customize
+                .features-text-dec
+                  span
+                    | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              // //text
+            // // features-text-icon
+          // // col-sm-4
+        // /section-row
+      // /features-content
+    // /row
+  // /container
+//
+  End of features section
+  =============================================
+//
+  Start of About Section
+  =============================================
+section#about.about-section
+  .container
+    .row.section-content
+      .about-section-content
+        .row
+          .col-md-6
+            .about-left-img.zooming
+              img(src='../public/land/assets/img/mock-up/about.png' alt='img')
+          // //col-sm-6
+          .col-md-6
+            .about-section-text
+              .section-title.text-left.pb50
+                span.title-text.pink.text-uppercase AVAILABLE NOW
+                h1.title.deep-black.pb40 Best Landing Page Solution
+                span.title-dec
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorin.
+              // //section-title
+              .download-store.ul-li
+                ul.store-list
+                  li
+                    a(href='https://play.google.com/store?hl=en' target='blank')
+                      img(src='../public/land/assets/img/store/google.png')
+                  li
+                    a(href='https://itunes.apple.com/us/app/apple-store/id375380948?mt=8' target='blank')
+                      img(src='../public/land/assets/img/store/apple.png')
+            // //about-section-text
+          // //col-sm-6
+      // //about-section-content
+    // /row
+  // /container
+//
+  End of About Section
+  =============================================
+//
+  Start of some extra features
+  =============================================
+section#extra-features.extra-features-section
+  .container
+    .row.section-content
+      .section-title.text-center.pb50
+        span.title-text.pink.text-uppercase YOU WILL GET
+        h1.title.deep-black.pb40 Some Extra Featuresn
+      // //section-title
+      .extra-features-content
+        .row
+          .col-md-4.col-sm-6
+            .extra-left
+              .extra-left-content
+                .extra-icon-text.text-left
+                  .features-icon.text-center
+                    i.orange-gred.ti-paint-bucket
+                  .features-text.pt25
+                    .features-text-title.text-right.pb10
+                      h3.deep-black Clean Design
+                    .features-text-dec.text-right
+                      span
+                        | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+              // // extra-left-content
+              .extra-left-content
+                .extra-icon-text.text-left
+                  .features-icon.text-center
+                    i.orange-gred.ti-user
+                  .features-text.pt25
+                    .features-text-title.text-right.pb10
+                      h3.deep-black User Friendly
+                    .features-text-dec.text-right
+                      span
+                        | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+              // // extra-left-content
+              .extra-left-content
+                .extra-icon-text.text-left
+                  .features-icon.text-center
+                    i.orange-gred.ti-desktop
+                  .features-text.pt25
+                    .features-text-title.text-right.pb10
+                      h3.deep-black Fully Responsive
+                    .features-text-dec.text-right
+                      span
+                        | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+              // // extra-left-content
+            // /extra-left
+          // /col-sm-3
+          .col-sm-4
+            .extra-pic.text-center
+              img(src='../public/land/assets/img/mock-up/extra.png' alt='img')
+          // /col-sm-6
+          .col-md-4.col-sm-6
+            .extra-right
+              .extra-left-content
+                .extra-icon-text.text-right
+                  .features-icon.text-center
+                    i.orange-gred.ti-money
+                  .features-text.pt25
+                    .features-text-title.text-left.pb10
+                      h3.deep-black Clean Design
+                    .features-text-dec.text-left
+                      span
+                        | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+              // // extra-left-content
+              .extra-left-content
+                .extra-icon-text.text-right
+                  .features-icon.text-center
+                    i.orange-gred.ti-eye
+                  .features-text.pt25
+                    .features-text-title.text-left.pb10
+                      h3.deep-black Retina Ready
+                    .features-text-dec.text-left
+                      span
+                        | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+              // // extra-left-content
+              .extra-left-content
+                .extra-icon-text.text-right
+                  .features-icon.text-center
+                    i.orange-gred.ti-comment-alt
+                  .features-text.pt25
+                    .features-text-title.text-left.pb10
+                      h3.deep-black 24/7 Support
+                    .features-text-dec.text-left
+                      span
+                        | Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+              // // extra-left-content
+            // /extra-left
+          // /col-sm-3
+        // /row
+      // /extra-features-content
+    // /row
+  // /container
+//
+  End of some extra features
+  =============================================
+//
+  Start of how to install
+  =============================================
+section#extra-features.how-to-install
+  .container
+    .row.section-content
+      .how-to-install-content
+        .title-install.text-center.pb60
+          h2 How To Install Landy
+        // // title-install
+        .install-play.text-center
+          a.popup-with-zoom-anim(href='https://www.youtube.com/watch?v=Rlc1FnJiPaI')
+            span.orange-gred.ti-control-forward
+        // // install-play
+    // /row
+  // /container
+//
+  End of how to install
+  =============================================
+//
+  Start of showcase section
+  =============================================
+section#showcase.showcase-section
+  .container
+    .row.section-content
+      .showcase-content
+        .section-title.text-center.pb50
+          span.title-text.pink.text-uppercase LOVE TO SEE
+          h1.title.deep-black.pb40 Our Showcase
+        // //section-title
+        .showcase-slider
+          .showcase-img
+            img(src='../public/land/assets/img/showcase/show-1.jpg' alt='img')
+          .showcase-img
+            img(src='../public/land/assets/img/showcase/show-2.jpg' alt='img')
+          .showcase-img
+            img(src='../public/land/assets/img/showcase/show-3.jpg' alt='img')
+          .showcase-img
+            img(src='../public/land/assets/img/showcase/show-4.jpg' alt='img')
+          .showcase-img
+            img(src='../public/land/assets/img/showcase/show-1.jpg' alt='img')
+          .showcase-img
+            img(src='../public/land/assets/img/showcase/show-2.jpg' alt='img')
+          .showcase-img
+            img(src='../public/land/assets/img/showcase/show-3.jpg' alt='img')
+          .showcase-img
+            img(src='../public/land/assets/img/showcase/show-4.jpg' alt='img')
+          .showcase-img
+            img(src='../public/land/assets/img/showcase/show-1.jpg' alt='img')
+          .showcase-img
+            img(src='../public/land/assets/img/showcase/show-2.jpg' alt='img')
+          .showcase-img
+            img(src='../public/land/assets/img/showcase/show-3.jpg' alt='img')
+          .showcase-img
+            img(src='../public/land/assets/img/showcase/show-4.jpg' alt='img')
+      // /showcase-content
+    // /row
+  // /container
+//
+  End of showcase section
+  =============================================
+//
+  End of testimonial section
+  =============================================
+section#testimonial.testimonial-section
+  .container
+    .row.section-content
+      .testimonial-content
+        .col-md-4
+          .testimonial-name-designation
+            .quate-icon
+              span.orange-gred.ti-quote-left
+            // //icon
+            .testimonial-text
+              span
+                | Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehender.
+            // //text
+            .testimonial-name-des.pt25
+              .testimonial-pic
+                img(src='../public/land/assets/img/testimonial/testi-1.jpg' alt='img')
+              // //pic
+              .client-designation.pt20
+                span.name.deep-black Tylor Swift
+                span.designation SR. Graphic Artist
+              // //client-designation
+            // //name-dec
+          // /testimonial-name-designation
+        // //col-sm-4
+        .col-md-4
+          .testimonial-name-designation
+            .quate-icon
+              span.orange-gred.ti-quote-left
+            // //icon
+            .testimonial-text
+              span
+                | Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt .
+            // //text
+            .testimonial-name-des.pt25
+              .testimonial-pic
+                img(src='../public/land/assets/img/testimonial/testi-3.jpg' alt='img')
+              // //pic
+              .client-designation.pt20
+                span.name.deep-black Emma Watson
+                span.designation SR. Developer
+              // //client-designation
+            // //name-dec
+          // /testimonial-name-designation
+        // //col-sm-4
+        .col-md-4
+          .testimonial-name-designation
+            .quate-icon
+              span.orange-gred.ti-quote-left
+            // //icon
+            .testimonial-text
+              span
+                | Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehender.
+            // //text
+            .testimonial-name-des.pt25
+              .testimonial-pic
+                img(src='../public/land/assets/img/testimonial/testi-1.jpg' alt='img')
+              // //pic
+              .client-designation.pt20
+                span.name.deep-black Selena Gomez
+                span.designation SR. SEO Mgr
+              // //client-designation
+            // //name-dec
+          // /testimonial-name-designation
+        // //col-sm-4
+    // /row
+  // /container
+//
+  End of testimonial section
+  =============================================
+//
+  Start of pricing plan
+  =============================================
+section#pricing.pricing-plan-section
+  .container
+    .row.section-content
+      .pricing-plan-content
+        .section-title.text-center.pb50
+          span.title-text.pink.text-uppercase LET TEST
+          h1.title.deep-black.pb40 Affordable Prices
+        // //section-title
+        .pricing-plan
+          .col-md-4.no-padding
+            .landy-pricing.text-center.ul-li
+              .header-pricing
+                .pricing-price
+                  h3.content-price.pink.pb10 $39
+                  span.content-duration.text-uppercase.pb10 per month
+                .content-title.mt10
+                  .deep-black.text-uppercase ECONOMY
+              // //header-pricing
+              .pricing-plan-list.pt35.pb40
+                ul.landy-pricing-content-desc
+                  li
+                    | exercitation ullamco laborii
+                  li
+                    | commodo consequat
+                  li
+                    | aute reprehenderit voluptate
+                  li
+                    | cillum doloreftu fgjhr
+              // // pricing-plan-list
+              .landy-content-button.text-uppercase
+                a(href='#') SIGN UP NOW
+        // /landy-pricing
+        .pricing-plan
+          .col-md-4.no-padding
+            .landy-pricing.middle.text-center.ul-li
+              .landing-icon.text-left
+                span.orange-gred.ti-bookmark-alt
+              .header-pricing
+                .pricing-price
+                  h3.content-price.pink.pb10 $59
+                  span.content-duration.text-uppercase.pb10 per month
+                .content-title.mt10
+                  .deep-black.text-uppercase STANDARD
+              // //header-pricing
+              .pricing-plan-list.pt35.pb40
+                ul.landy-pricing-content-desc
+                  li
+                    | exercitation ullamco laborii
+                  li
+                    | commodo consequat
+                  li
+                    | aute reprehenderit voluptate
+                  li
+                    | cillum doloreftu fgjhr
+              // // pricing-plan-list
+              .landy-content-button.text-uppercase
+                a(href='#') SIGN UP NOW
+        // /landy-pricing
+        .pricing-plan
+          .col-md-4.no-padding
+            .landy-pricing.text-center.ul-li
+              .header-pricing
+                .pricing-price
+                  h3.content-price.pink.pb10 $79
+                  span.content-duration.text-uppercase.pb10 per month
+                .content-title.mt10
+                  .deep-black.text-uppercase ULTIMATE
+              // //header-pricing
+              .pricing-plan-list.pt35.pb40
+                ul.landy-pricing-content-desc
+                  li
+                    | exercitation ullamco laborii
+                  li
+                    | commodo consequat
+                  li
+                    | aute reprehenderit voluptate
+                  li
+                    | cillum doloreftu fgjhr
+              // // pricing-plan-list
+              .landy-content-button.text-uppercase
+                a(href='#') SIGN UP NOW
+        // /landy-pricing
+    // /row
+  // /container
+//
+  End of pricing plan
+  =============================================
+//
+  Start of download
+  =============================================
+section#download-area.download-section
+  .container
+    .row.section-content
+      .download-area-content.text-center
+        .download-number.pb20
+          h2 7895
+        .download-area-text.pb20
+          span Join our thoursands of satisfied family and get your copy to use!
+        .download-now.pb40
+          h3 Download Your App Now
+        .download-store.ul-li
+          ul.store-list
+            li
+              a(href='https://play.google.com/store?hl=en' target='blank')
+                img(src='../public/land/assets/img/store/google.png')
+            li
+              a(href='https://itunes.apple.com/us/app/apple-store/id375380948?mt=8' target='blank')
+                img(src='../public/land/assets/img/store/apple.png')
+    // /row
+  // /container
+//
+  End of  download
+  =============================================
+//
+  Start of contact section
+  =============================================
+section#contact.contact-section
+  .container
+    .row.section-content
+      .section-title.text-center.pb50
+        span.title-text.pink.text-uppercase GET IN TOUCH
+        h1.title.deep-black.pb40 Dorp Us a Message
+      // //section-title
+      .comment-form
+        form#contact_form(action='#' method='POST' enctype='multipart/form-data')
+          .contact-info
+            input.name.mr30(name='name' type='text' placeholder='Name*')
+          .contact-info
+            input.email(name='email' type='text' placeholder='Email*')
+          .contact-info-1
+            input.name(name='name' type='text' placeholder='Subject')
+          .contact-info
+            textarea#message(name='message' placeholder='Message' rows='7' cols='30')
+          .submit-btn.text-center.mt20
+            button(type='submit' value='Submit') Submit Now
+    // //row
+  // //container
+//
+  End of contact section
+  =============================================
+//
+  Start of footer section
+  =============================================
+footer
+  section#footer-area.footer-area-section
+    .container
+      .row.section-content
+        .footer-area-content
+          .row
+            .col-md-3.col-sm-6
+              .footer-content
+                span.right.deep-black 2017 Landy. All right reserved
+                .footer-address.mt20
+                  span
+                    | 457 Shantibag, Green Road
+                    | Philadelphia, PH USA 17512
+                    | +1 437 800 2078
+                .footer-social.ul-li.mt20
+                  ul.footer-social-list
+                    li
+                      a(href='#')
+                        span.ti-facebook
+                    li
+                      a(href='#')
+                        span.ti-twitter-alt
+                    li
+                      a(href='#')
+                        span.ti-google
+                    li
+                      a(href='#')
+                        span.ti-vimeo-alt
+            // //col-sm-4
+            .col-md-3.col-sm-6
+              .footer-service-list
+                .footer-widget.pb20
+                  h2.widgettile.deep-black Information
+                .service-list.ul-li.ul-li-block
+                  ul.service-list-item
+                    li
+                      a(href='#') Terms &amp; Condision
+                    li
+                      a(href='#') About Us
+                    li
+                      a(href='#') Privacy Policy
+                    li
+                      a(href='#') Download
+              // //1st service
+            .col-md-3.col-sm-6
+              .footer-service-list
+                .footer-widget.pb20
+                  h2.widgettile.deep-black Support
+                .service-list.ul-li.ul-li-block
+                  ul.service-list-item
+                    li
+                      a(href='#') FAQ
+                    li
+                      a(href='#') Help
+                    li
+                      a(href='#') Contact
+            // //col-sm-4
+            .col-md-3.col-sm-6
+              .footer-widget.pb20
+                h2.widgettile.deep-black Subscribe
+              span Don&rsquo;t miss out our every updates and news!
+              .newsletter
+                form(action='#' method='get')
+                  .newsletter-email
+                    input(type='email')
+                    button(type='submit' value='Submit')
+                      span.orange-gred.ti-arrow-right
+        // //row
+      // //footer-area-content
+    // //container
+//
+  End of footer section
+  =============================================
+// Js Library
+script(type='text/javascript' src='../public/land/assets/js/jquery-2.1.4.min.js')
+// Include  for bootstrap
+script(type='text/javascript' src='../public/land/assets/js/bootstrap.min.js')
+// Include Owl-carousel
+script(type='text/javascript' src='../public/land/assets/js/owl.carousel.min.js')
+// Include OnePagenNav
+// <script type="text/javascript" src="../public/land/assets/js/OnePagenNav.js"></script>
+// Include jquery.magnific-popup.min.js
+script(type='text/javascript' src='../public/land/assets/js/jquery.magnific-popup.min.js')
+// Include script.js
+script(type='text/javascript' src='../public/land/assets/js/script.js')

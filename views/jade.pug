@@ -1,0 +1,21 @@
+link(type='text/css' rel='stylesheet' href='../public/jade/css/jade.css')
+- var image = "../public/jade/images/"
+// - var path = [1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg, 6.jpg]
+
+mixin product(title, imageID, price)
+  .product
+    .product__wrapper    
+      img.product__img(
+        src=`${image}${imageID}.jpg`
+      )
+      .product__content
+        h2.product__title #{title}
+        p.product__price USD$ #{price}
+        
+.products
+  +product('Whatever',1, '011')
+  +product('Siki',2, '1000.20')
+  +product('Vicky',3, '993.40')
+  +product('Wilson',4, '627.90')
+  +product('Ebi',5, '969.90')
+  +product('Leo',6, '829.50')
